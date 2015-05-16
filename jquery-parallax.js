@@ -102,6 +102,10 @@
     el.off(NAMESPACE + '_leave');
     
     var option = el.data(NAMESPACE);
+    if (!option) {
+      return;
+    }
+    
     option.parent.off('scroll.' + NAMESPACE, option._listener);
     
     el.removeData(NAMESPACE);
