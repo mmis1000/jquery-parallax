@@ -1,5 +1,5 @@
 
-var text = " ���Y�A�ڻ�������ĩO�H�A�ѤF�ܡH�Ūx�����y�O���౻�\�A�S����Ī��ƹꪺ���H ".split('');
+var text = " 李嚴，我說那個醬汁呢？你忘了嗎？空泛的言語是不能掩蓋你沒有醬汁的事實的阿？ ".split('');
 
 for (var i = 0; i < text.length; i++) {
   $('.wrap').append(
